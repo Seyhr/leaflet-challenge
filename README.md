@@ -3,23 +3,24 @@ This Challenge require us a interactive Earthquake map .It visualize the real ti
 
 I created repository with leaflet-Challenge name on github and clone this rep on my computer
 
-# The purpose of this challenge #
-  -- create earthquake visualization
-  -- Use markers to reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
-  -- Include popups that provide additional information about the earthquake.
-  -- include legends to indicate depth intervals
-# Technologies used #  
-  -- Leaflet.js
-  -- D3.js
-  -- GEOJson
-  -- Jscript
-  -- HTML and CSS
+## The purpose of this challenge ##
+- create earthquake visualization
+- Use markers to reflect the magnitude of the earthquake by their size and the depth of the earthquake by color.
+- Include popups that provide additional information about the earthquake.
+- include legends to indicate depth intervals
 
+## Technologies used ##
+- Leaflet.js
+- D3.js
+- GEOJson
+- Jscript
+- HTML and CSS
+  
 For earthquake visualization, I used pseudocode to structure my code.
 For dataset: The USGS provides earthquake data in a number of different formats,
 I visited the given link to get the dataset.
 
-# Code overview #
+## Code overview ##
 1. Create the 'basemap' tile layer using OpenStreetMap 
 2. Create the 'street' tile layer as a second background of the map
 3. Set the map with zoom and center option
